@@ -1,0 +1,13 @@
+@use "../abstracts/index" as *;
+
+.landing {
+  nav {
+    width: $fluid-width;
+    max-width: $max-width;
+    margin: 0 auto;
+    height: $nav-height;
+    display: flex;
+    align-items: center;
+    background-color: red;
+  }
+}
