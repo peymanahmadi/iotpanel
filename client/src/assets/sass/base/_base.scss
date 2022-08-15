@@ -18,6 +18,17 @@ html {
 
 body {
   font-family: bf.$FiraSans;
+  background: $background-color;
+  line-height: 1.75;
+  color: $text-color;
+}
+
+.english-font {
+  font-family: bf.$FiraSans;
+}
+
+.farsi-font {
+  font-family: bf.$Vazir;
 }
 
 .img {
@@ -30,4 +41,8 @@ body {
   width: $fluid-width;
   max-width: $max-width;
   margin: 0 auto;
+}
+
+.full-page {
+  min-height: 100vh;
 }
