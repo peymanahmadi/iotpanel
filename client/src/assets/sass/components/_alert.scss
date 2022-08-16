@@ -1,0 +1,19 @@
+@use "../abstracts/index" as *;
+
+.alert {
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 1rem;
+  border-color: transparent;
+  border-radius: $border-radius;
+  text-align: center;
+
+  .alert-danger {
+    background: $red-light;
+    color: $red-dark;
+  }
+
+  .alert-success {
+    background: $green-light;
+    color: $green-dark;
+  }
+}
